@@ -4,11 +4,7 @@ import openpyxl
 excel_file = openpyxl.load_workbook('./avtovoz_cars.xlsx')
 sheet = excel_file.active
 
-
-excel_file = openpyxl.load_workbook('./avtovoz_cars.xlsx')
 marka_from_file = input("marka:")
-
-sheet = excel_file.active
 
 
 for row in range(1,sheet.max_row+1):
